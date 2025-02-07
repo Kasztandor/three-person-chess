@@ -8,9 +8,9 @@ public class Main {
     static {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 8; j++) {
-                red[i][j] = "  ";
-                black[i][j] = "  ";
-                white[i][j] = "  ";
+                red[i][j] = "";
+                black[i][j] = "";
+                white[i][j] = "";
             }
         }
     }
@@ -26,6 +26,8 @@ public class Main {
             case "red":
                 displayer[8] = red[0];
                 displayer[9] = red[1];
+                displayer[10] = red[2];
+                displayer[11] = red[3];
                 break;
             case "black":
                 break;
@@ -72,4 +74,4 @@ public class Main {
         };
     }
 }
-// ą
+// 
